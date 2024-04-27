@@ -8,6 +8,7 @@ import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
 
       {/* tree view component */}
 
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
+
+      <QRCodeGenerator/>
+
     </div>
   );
 }
