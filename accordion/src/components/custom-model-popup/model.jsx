@@ -6,6 +6,7 @@ const Model = ({ id, header, body, footer, onClose }) => {
           <span onClick={onClose} className="close-model-icon">&times;</span>
           <h2>{header ? header : "Header"}</h2>
         </div>
+      
         <div className="body">
           {body ? (
             body

@@ -27,7 +27,7 @@ import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-sec
 function App() {
   return (
     <div className="App">
-      {/* <Accordian/> */}
+      <Accordian/>
 
       {/* <RandomColor/> */}
 
@@ -75,7 +75,7 @@ function App() {
       {/* <UseOnClickOutsideTest/> */}
 
       {/* use window resize hook test */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
 
       {/* Scroll to to and bottom */}
 
@@ -83,7 +83,7 @@ function App() {
 
       {/* Scroll to a particular section */}
 
-      <ScrollToSection/>
+      {/* <ScrollToSection/> */}
 
 
     </div>
